@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="practica2DAW:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>practica2DAW</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="practica2DAW-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="practica2DAW:war exploded" />
+    </root>
+  </artifact>
+</component>

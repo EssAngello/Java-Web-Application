@@ -1,0 +1,120 @@
+.adminproductos{
+    color:white;
+    height: 99%;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.adminproductostabla{
+    display: block;
+    margin-top: 50px;
+    background-color: #008997;
+    border-radius: 20px;
+    /*border: 1px solid greenyellow;
+    box-shadow: 0 0 7px greenyellow, 0 0 7px greenyellow inset;*/
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+.adminproductostabla thead tr th{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 3px solid black;
+}
+
+.adminproductostabla tbody tr td{
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.adminproductos textarea{
+    white-space: nowrap;
+    border-radius: 10px;
+    height: 32px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 1830px) {
+
+    .adminproductostabla thead tr th{
+        padding-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: 3px solid black;
+    }
+
+    .adminproductostabla tbody tr td{
+        align-items: center;
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .adminproductos textarea{
+        white-space: nowrap;
+        border-radius: 10px;
+        height: 32px;
+        width: 150px;
+    }
+
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .adminproductostabla thead tr th{
+        padding-top: 30px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-bottom: 3px solid black;
+    }
+
+    .adminproductostabla tbody tr td{
+        align-items: center;
+        text-align: center;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .adminproductos textarea{
+        white-space: nowrap;
+        border-radius: 10px;
+        height: 32px;
+        width: 120px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+    .adminproductostabla thead tr th{
+        padding-top: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
+        border-bottom: 3px solid black;
+    }
+
+    .adminproductostabla tbody tr td{
+        align-items: center;
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .adminproductos textarea{
+        white-space: nowrap;
+        border-radius: 10px;
+        height: 32px;
+        width: 100px;
+    }
+
+}

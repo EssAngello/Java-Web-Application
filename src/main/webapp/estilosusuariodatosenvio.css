@@ -1,0 +1,61 @@
+.datosenvio{
+    color:white;
+    height: 99%;
+    width: -moz-available;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.tabladatosenvio{
+    background-color: #008997;
+    border-radius: 20px;
+    /*border: 1px solid greenyellow;
+    box-shadow: 0 0 7px greenyellow, 0 0 7px greenyellow inset;*/
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.tabladatosenvio input{
+    padding: 0.7rem 0.9rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.tabladatosenvio tr td{
+    padding-bottom: 20px;
+}
+
+.formdatosenvio{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+    text-align: center;
+}
+
+.fechayimporte a{
+    text-decoration: black;
+}
+
+.usuariodatosenvio-text-container{
+    font-family: 'Cinzel', serif;
+}
+
+#usuariodatosenvio-text{
+    color: white;
+    position: relative;
+    margin: 0 0 0 0;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 2.0em;
+    text-align: center;
+    letter-spacing: 5px;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}

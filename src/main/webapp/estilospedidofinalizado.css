@@ -1,0 +1,23 @@
+.pedidofinalizado{
+    font-family: 'Akshar', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedidofinalizado-texto{
+    color:#ffeadc;
+    text-align: center;
+}
+
+.pedidofinalizado-check{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.pedidofinalizado-check img{
+    width: 20%;
+}

@@ -1,0 +1,71 @@
+.admin-text-container{
+    font-family: 'Cinzel', serif;
+}
+
+#admin-text{
+    color: white;
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 100px;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.adminloginimg{
+    width:50px;
+}
+
+#loginadmin{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+
+    padding: 60px;
+    background: linear-gradient(#010426, #010541);
+
+    border: 2px solid #21ebff;
+    box-shadow: 0 0 7px #21ebff, 0 0 7px #21ebff inset;
+
+}
+
+.loginadminlabel{
+    font-family: sans-serif;
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 9px;
+}
+
+#loginadmin input {
+    width: 90%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+
+@keyframes spin {
+    from {transform: translate(-50%, -50%) rotate(0);}
+    to   {transform: translate(-50%, -50%) rotate(360deg);}
+}

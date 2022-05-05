@@ -1,0 +1,27 @@
+.usuariomenu {
+    min-height: 900px;
+    background: black;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-rows: 1fr;
+    gap: 0 0;
+    grid-template-areas:
+    ". .";
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.botones-usuario{
+    margin-top: 40px;
+    /*margin-left: -50px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.opcionseleccionada{
+    background-color: #1a225d;
+    border: 2px solid #21ebff;
+    box-shadow: 0 0 7px #21ebff, 0 0 7px #21ebff inset;
+}

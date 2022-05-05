@@ -1,0 +1,183 @@
+/*@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);*/
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea:focus::placeholder {
+    color: #bbb5af;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+    color: #aca49c;
+    font-size: 0.875em;
+}
+
+input:focus::-ms-input-placeholder, textarea:focus::-ms-input-placeholder {
+    color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-ms-input-placeholder, textarea:hover:focus:-ms-input-placeholder {
+    color: #cbc6c1;
+}
+
+.contacto-text-container{
+    font-family: 'Cinzel', serif;
+}
+
+#contacto-text{
+    color: white;
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+#form {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+    animation: aparecer 1s ease 0s 1 normal forwards;
+}
+
+.topBefore input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0 15px 0 15px;
+
+    background: transparent;
+    outline: none;
+    color: white;
+
+    border: 1px solid #21ebff;
+    box-shadow: 0 0 7px #21ebff, 0 0 7px #21ebff inset;
+    border-bottom: none;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    /*-ms-transition: all 0.3s ease-in-out;*/
+}
+
+.topBefore input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+.topBefore textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+
+    background: transparent;
+    outline: none;
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+
+    border: 1px solid #21ebff;
+    box-shadow: 0 0 7px #21ebff, 0 0 7px #21ebff inset;
+
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    /*-ms-transition: all 0.3s ease-in-out;*/
+}
+
+.topBefore textarea:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+}
+
+.topBefore #submit {
+    width: 502px;
+
+    padding: 0;
+    margin: -5px 0 0 0;
+
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #b3aca7;
+
+    outline:none;
+    cursor: pointer;
+
+    border: 1px solid #21ebff;
+    box-shadow: 0 0 7px #21ebff, 0 0 7px #21ebff inset;
+    border-top: none;
+}
+
+.topBefore #submit:hover {
+    color: #e2dedb;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

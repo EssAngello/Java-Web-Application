@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+.gestionarpedidos{
+    padding-top: 40px;
+    height: 99%;
+    width: -moz-available;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.pedidobox{
+    width: 280px;
+    height: 180px;
+    border-radius: 9px;
+    background-color: white;
+    filter: brightness(95%);
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    font-family: 'entypo', sans-serif;
+
+
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.3fr 0.7fr;
+    gap: 0px 0px;
+    grid-template-areas:
+    "codigoyestado"
+    "fechayimporte"
+    "surveycomplete";
+    width: 280px;
+    height: 180px;
+}
+
+.codigoyestado{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1.6fr 0.4fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    /*grid-template-areas:
+    ". .";*/
+    grid-area: codigoyestado;
+    padding-left: 20px;
+}
+
+.fechayimporte{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #A1A1A4;
+}
+
+.surveycomplete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.surveycomplete progress{
+    width: 90%;
+}
+
+.fechayimporte p{
+    margin-bottom: -3px;
+}
+
+.puntoverde{
+    background-color: green;
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.puntogris{
+    background-color: gray;
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+
+.puntorojo{
+    background-color: red;
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 11px;
+}

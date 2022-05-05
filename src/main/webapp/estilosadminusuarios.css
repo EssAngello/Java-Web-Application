@@ -1,0 +1,210 @@
+.adminusuarios{
+    color:white;
+    height: 99%;
+    width: -moz-available;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    animation: aparecer 3s ease 0s 1 normal forwards;
+}
+
+.adminusuariostabla{
+    display: block;
+    margin-top: 50px;
+    background-color: #202020;
+    /*background-color: #008997;*/
+    border-radius: 20px;
+    /*border: 1px solid greenyellow;
+    box-shadow: 0 0 7px greenyellow, 0 0 7px greenyellow inset;*/
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+
+    border-spacing: 35px;
+    border-collapse: separate;
+}
+
+.adminusuariostabla thead tr th{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid white;
+}
+
+.adminusuariostabla tbody tr td{
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.botonadminrojo {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: hsl(0deg 0% 0% / 0.25);
+    will-change: transform;
+    transform: translateY(2px);
+    transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.edgerojo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+            to left,
+            hsl(340deg 100% 16%) 0%,
+            hsl(340deg 100% 32%) 8%,
+            hsl(340deg 100% 32%) 92%,
+            hsl(340deg 100% 16%) 100%
+    );
+}
+
+.frontrojo {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(345deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.botonadminrojo:hover {
+    filter: brightness(110%);
+}
+
+.botonadminrojo:hover .frontrojo {
+    transform: translateY(-6px);
+    transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.botonadminrojo:active .frontrojo {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.botonadminrojo:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.botonadminrojo:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.botonadminrojo:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+
+.botonadminverde {
+    position: relative;
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    transition: filter 250ms;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.edgeverde {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background: linear-gradient(
+            to left,
+            hsl(120deg 100% 16%) 0%,
+            hsl(120deg 100% 32%) 8%,
+            hsl(120deg 100% 32%) 92%,
+            hsl(120deg 100% 16%) 100%
+    );
+}
+
+.frontverde {
+    display: block;
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    color: white;
+    background: hsl(125deg 100% 47%);
+    will-change: transform;
+    transform: translateY(-4px);
+    transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+
+.botonadminverde:hover {
+    filter: brightness(110%);
+}
+
+.botonadminverde:hover .frontverde {
+    transform: translateY(-6px);
+    transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.botonadminverde:active .frontverde {
+    transform: translateY(-2px);
+    transition: transform 34ms;
+}
+
+.botonadminverde:hover .shadow {
+    transform: translateY(4px);
+    transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+.botonadminverde:active .shadow {
+    transform: translateY(1px);
+    transition: transform 34ms;
+}
+
+.botonadminrojo:focus:not(:focus-visible) {
+    outline: none;
+}
+
+
+

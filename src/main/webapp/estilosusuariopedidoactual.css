@@ -1,0 +1,10 @@
+.pedidoactual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.pedidoactual .fila{
+    margin: 20px 30px;
+}
